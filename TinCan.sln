@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinCan", "TinCan\TinCan.csproj", "{27D0FCA1-E869-440C-9D16-F62D7A068C53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinCanTests", "TinCanTests\TinCanTests.csproj", "{854413C2-2F81-4A82-9949-DE2868A10078}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Doc", "Doc\Doc.shfbproj", "{F8D803AD-A192-4F8C-A582-674B75E42995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest2", "ConsoleTest2\ConsoleTest2.csproj", "{D33A0507-A635-4953-8080-6D241356A7FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,12 @@ Global
 		{F8D803AD-A192-4F8C-A582-674B75E42995}.Documentation|Any CPU.Build.0 = Documentation|Any CPU
 		{F8D803AD-A192-4F8C-A582-674B75E42995}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8D803AD-A192-4F8C-A582-674B75E42995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33A0507-A635-4953-8080-6D241356A7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33A0507-A635-4953-8080-6D241356A7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33A0507-A635-4953-8080-6D241356A7FE}.Documentation|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33A0507-A635-4953-8080-6D241356A7FE}.Documentation|Any CPU.Build.0 = Debug|Any CPU
+		{D33A0507-A635-4953-8080-6D241356A7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33A0507-A635-4953-8080-6D241356A7FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

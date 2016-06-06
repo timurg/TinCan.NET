@@ -26,7 +26,7 @@ namespace TinCan
 
         StatementLRSResponse SaveStatement(Statement statement);
         StatementLRSResponse VoidStatement(Guid id, Agent agent);
-        StatementsResultLRSResponse SaveStatements(List<Statement> statements);
+        StatementsResultLRSResponse SaveStatements(IList<Statement> statements);
         StatementLRSResponse RetrieveStatement(Guid id);
         StatementLRSResponse RetrieveVoidedStatement(Guid id);
         StatementsResultLRSResponse QueryStatements(StatementsQuery query);

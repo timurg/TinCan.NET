@@ -42,7 +42,8 @@ namespace TinCan
             if (jobj["grouping"] != null)
             {
                 grouping = new List<Activity>();
-                foreach (JObject jactivity in jobj["grouping"]) {
+                foreach (JContainer jactivity in jobj["grouping"]) {
+                    if (jactivity is JObject)
                     grouping.Add((Activity)jactivity);
                 }
             }

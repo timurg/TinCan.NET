@@ -441,7 +441,7 @@ namespace TinCan
 
             return SaveStatement(voidStatement);
         }
-        public StatementsResultLRSResponse SaveStatements(List<Statement> statements)
+        public StatementsResultLRSResponse SaveStatements(IList<Statement> statements)
         {
             var r = new StatementsResultLRSResponse();
 
